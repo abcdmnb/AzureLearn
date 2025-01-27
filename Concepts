@@ -1,0 +1,3 @@
+Resource: An instance of a service. For Example: Linux VM created from virtual machine service, then Linux VM is a Resource
+Resoiurce Manager: it is the mediator for the user request and the outcome. For example: once the Filled all details for new virtual Machine then request goes to Resource manager, RM process the data and create a VM
+Resource Groups: It is one of the service provided by Azure. One Resource can be in only in one Resource Groups. Resource groups are mandatory in Azure for resource creation. By simply clicking on Required resouce group, we can get to know how many Resources are there and IAM management and cost checking, monitoring etc.
