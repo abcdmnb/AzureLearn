@@ -1,3 +1,8 @@
 Resource: An instance of a service. For Example: Linux VM created from virtual machine service, then Linux VM is a Resource
 Resoiurce Manager: it is the mediator for the user request and the outcome. For example: once the Filled all details for new virtual Machine then request goes to Resource manager, RM process the data and create a VM
 Resource Groups: It is one of the service provided by Azure. One Resource can be in only in one Resource Groups. Resource groups are mandatory in Azure for resource creation. By simply clicking on Required resouce group, we can get to know how many Resources are there and IAM management and cost checking, monitoring etc.
+VNet: Virtual Network. It is also one of the service in Azure. It provide the logical isolation. We can define the size of VNet by providing CIDR range.For further securing we can divide the VNet into no.of subnets.
+Subnets: Logical isolation within the VNET. We can define the size of subnets by using CIDR range. We can provide the security for these subnets by using NSG(Network security groups)
+NSG: Security rule. this can apply may be subnet level or Resource level. If applied subnet level all resources inside that subent can have same NGS. 
+ASG: Advanced security groups. Suppose in NSG i provided particular range to allow into my resources using port 22. By using ASG i can create a group of required resources and create a rule only those resources can access my resources.
+Network fundamentals: VNet, Subnets, CIDR, NSG, ASG
